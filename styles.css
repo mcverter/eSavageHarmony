@@ -2,6 +2,24 @@ body {
 	text-align:center;
 }
 
+#col_1 {
+    background-color:#814298;
+    color:#dae25d;
+}
+#col_2 {
+    background-color:#c25082;
+    color:#9ed257;
+}
+#col_3 {
+    background-color:#624b9d;
+    color:#efd05f;
+}
+#col_4 {
+    background-color:#dae25d;
+    color:#814298;
+}
+
+
 #red {
     background-color:#FF0000;
     color:#ff7600;
