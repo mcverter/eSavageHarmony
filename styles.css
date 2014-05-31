@@ -1,0 +1,145 @@
+body {
+    background-color:pink;
+    color:blue;
+	text-align:center;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    padding: 20px;
+    border : 3px #B6BD2F;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  black;
+    background: white;
+
+/*    background: gold; */
+}
+
+blockquote {
+/*    background: darkorange; */
+    background: white;
+
+    color: black;
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+    border : 3px #B6BD2F;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    width: 85%;
+    color:  #ff7373;
+    background: black;
+/*    background: purple; */
+}
+
+#email {
+    width: 85%;
+    font-size: 3em;
+    background: maroon;
+    text-align: center;
+}
+
+.nav {
+    width: 95%;
+    background: #410b52;
+    font-size: 2em;
+}
+
+.nav ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    color: #FFD900;
+    background: #410b52;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+
+table {
+    border : 3px orangered;
+}
+tr, td {
+    border: 1px maroon;
+}
+
+
+a:link {
+    color:#BFAA30;
+}
+a:hover {
+    color:#A68D00;
+    font-weight:bold;
+}
+a:visited {
+    color:#A68D00;
+}
+
+
+
+.nav a:link {
+    color:#BFAA30;
+}
+.nav a:hover {
+    color:#A68D00;
+    font-weight:bold;
+}
+.nav a:visited {
+    color:#A68D00;
+}
+
+.main ul a:link {
+    color:#6f0aaa;
+}
+.main ul a:hover {
+    color:maroon;
+    font-weight:bold;
+}
+.main ul a:visited {
+    color:maroon;
+}
+
+blockquote a:link {
+    color:#6f0aaa;
+}
+blockquote a:hover {
+    color:maroon;
+    font-weight:bold;
+}
+blockquote a:visited {
+    color:maroon;
+}
+
+#publications {
+    text-align: center;
+    width : 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#publications img {
+    height: 250px;
+    width: 100px;
+}
+
+#publications a {
+    display: block;
+}
+
