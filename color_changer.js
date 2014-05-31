@@ -32,7 +32,7 @@ function changeColor()
 
     elt.style.color = nextcol;
     elt.style.backgroundColor = nextbg;
-    alert(elt);
+
     
     t=setTimeout(function(){changeColor()},250);
 }
