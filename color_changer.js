@@ -15,25 +15,21 @@ function getNextColor(colval) {
 
 function changeColor()
 {
-    var elt = document.getElementById("content");
-    console.log(elt);
-    var cs = window.getComputedStyle(elt);
-    console.log(cs);
-    var clr = cs.color;
-    var bgcol = cs.backgroundColor;
-    
-    var nextcol = getNextColor(clr);
-    var nextbg = getNextColor(bgcol);
-    
-    console.log(clr);
-    console.log(bgcol);
-    console.log(nextcol);
-    console.log(nextbg);
+    var allColorChangers = document.getElementsByClassName("color_changer")
 
-    elt.style.color = nextcol;
-    elt.style.backgroundColor = nextbg;
+    for (var i=0; i<allColorChangers.length; i++) {
+        var elt = allColorChangers[i];
+        var cs = window.getComputedStyle(elt);
 
-    
+        var clr = cs.color;
+        var bgcol = cs.backgroundColor;
+
+        var nextcol = getNextColor(clr);
+        var nextbg = getNextColor(bgcol);
+        elt.style.color = nextcol;
+        elt.style.backgroundColor = nextbg;
+    }
+
     t=setTimeout(function(){changeColor()},250);
 }
 
