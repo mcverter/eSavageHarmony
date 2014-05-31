@@ -19,11 +19,13 @@ function changeColor()
 
     for (var i=0; i<allColorChangers.length; i++) {
         var elt = allColorChangers[i];
-        var cs = window.getComputedStyle(elt);
 
+        var cs = window.getComputedStyle(elt);
         var clr = cs.color;
         var bgcol = cs.backgroundColor;
 
+        console.log("elt " + elt);
+        console.log("colors " + clr + "  " + bgcol);
         var nextcol = getNextColor(clr);
         var nextbg = getNextColor(bgcol);
         elt.style.color = nextcol;
