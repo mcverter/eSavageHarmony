@@ -17,6 +17,7 @@ function Chat () {
 
 //gets the state of the chat
 function getStateOfChat(){
+	console.log("getting state");
     if(!instanse){
         instanse = true;
         $.ajax({
@@ -38,6 +39,7 @@ function getStateOfChat(){
 
 //Updates the chat
 function updateChat(){
+	console.log("updating");
     if(!instanse){
         instanse = true;
         $.ajax({
@@ -69,6 +71,7 @@ function updateChat(){
 //send the message
 function sendChat(message, nickname)
 {
+	console.log("sending");
     updateChat();
     $.ajax({
         type: "POST",
