@@ -12,11 +12,12 @@ var file;
 function Chat () {
     this.update = updateChat;
     this.send = sendChat;
-	this.getState = getStateOfChat;
+    this.getState = getStateOfChat;
 }
 
 //gets the state of the chat
 function getStateOfChat(){
+    console.log("getting state of chat");
 	if(!instanse){
 		 instanse = true;
 		 $.ajax({
@@ -68,7 +69,8 @@ function updateChat(){
 
 //send the message
 function sendChat(message, nickname)
-{       
+{ 
+console.log("sending chat");      
     updateChat();
      $.ajax({
 		   type: "POST",
@@ -83,5 +85,7 @@ function sendChat(message, nickname)
 		   success: function(data){
 			   updateChat();
 		   },
+	 
+
 		});
 }

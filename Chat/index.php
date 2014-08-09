@@ -84,7 +84,7 @@
 
     <div id="page-wrap">
     
-        <h2>jQuery/PHP Chat</h2>
+        <h2>Harmony's Chat Hub!!! </h2>
         
         <p id="name-area"></p>
         
