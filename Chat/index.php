@@ -5,7 +5,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Chat</title>
+    <title>Chat with Harmony!!! (MULA) </title>
     
     <link rel="stylesheet" href="style.css" type="text/css" />
     
@@ -80,11 +80,12 @@
 
 </head>
 
-<body onload="setInterval('chat.update()', 1000)">
+<body onload="setInterval('chat.update()', 1000)"  background="images/kidunicorn.jpeg">
 
-    <div id="page-wrap">
-    
-        <h2>Harmony's Chat Hub!!! </h2>
+    <div id="page-wrap" >
+
+        <h2>Mutual Online Love Advice </h2>
+        <h2> <em> Chat </em> with Harmony!!!</h2>
         
         <p id="name-area"></p>
         
