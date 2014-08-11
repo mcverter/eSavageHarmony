@@ -86,6 +86,8 @@
 
         <h2>Mutual Online Love Advice </h2>
         <h2> <em> Chat </em> with Harmony!!!</h2>
+	<br>
+	<h2>	<a href="http://www.gofundme.com/cvdqkk" target="_blank">Donate here</a></h2>
         
         <p id="name-area"></p>
         
