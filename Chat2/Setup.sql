@@ -6,6 +6,10 @@ CREATE TABLE IF NOT EXISTS `chat_rooms` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
+INSERT INTO `chat_rooms` VALUES (NULL, 'mula_1', 2, 'mula_1.txt');
+INSERT INTO `chat_rooms` VALUES (NULL, 'mula_2', 2, 'mula_2.txt');
+INSERT INTO `chat_rooms` VALUES (NULL, 'mula_3', 2, 'mula_3.txt');
+
 CREATE TABLE IF NOT EXISTS `chat_users` (
   `id` tinyint(10) NOT NULL AUTO_INCREMENT,
   `username` varchar(100) NOT NULL,
